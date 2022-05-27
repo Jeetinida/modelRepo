@@ -24,6 +24,10 @@
     margin: 1%;
 }
 
+.update-block {
+    background-color: antiquewhite;
+}
+
 .update {
     width: 10%;
     height: 5%;
