@@ -1,0 +1,39 @@
+.update-body {
+    margin: 5%;
+}
+.update-data {
+    color:chocolate;
+    text-align: center;
+}
+
+.email-input {
+    text-align: center;
+    margin: 2%;
+}
+
+.email {
+    width: 25%;
+    background-color: lightskyblue;
+    text-align: center;
+    border-radius: 0.5em;
+    height: 5%;
+}
+
+.btn-contain {
+    text-align: center;
+    margin: 1%;
+}
+
+.update {
+    width: 10%;
+    height: 5%;
+    border-radius: 0.5em;
+    background-color: burlywood;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.update:hover {
+    background-color: green;
+}

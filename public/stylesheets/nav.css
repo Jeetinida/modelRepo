@@ -1,0 +1,14 @@
+.home-btn {
+    height: 5%;
+    background-color: beige;
+    color: cornflowerblue;
+    font-size: 1.5em;
+    /* padding: 0em; */
+    /* margin-top: 26px; */
+    padding-top: 0.3em;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}

@@ -1,0 +1,170 @@
+.main-body {
+
+    width: 100%;
+    height: 100%; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: mediumblue;
+    font-weight: 600;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: floralwhite;
+    height: 5%;
+}
+
+.left-region,.right-region {
+    width: 50%;
+}
+
+.left-region {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+
+.right-region {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-update,.right-delete {
+    margin: 0.2em 2.4em;
+}
+
+a {
+    color: azure !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+a:hover {
+    color: burlywood !important;
+}
+
+.content-body {
+    height: 85%;
+}
+
+.inner-content {
+    padding: 3%;
+}
+
+.common-class {
+    height: 35%;
+}
+
+.card-first, .card-second {
+    display: inline-block;
+    width: 48%;
+    background-color: silver;
+    border-radius: 0.5em;
+}
+
+ol {
+    display: table;
+}
+
+li:hover {
+    padding-left: 40px;
+}
+
+.card-first {
+    margin-right: 3%;
+}
+
+.card-title {
+    height: 15%;
+    background-color: coral;
+    color: brown;
+    text-align: center;
+}
+
+.hover-card {
+    display: table;
+    width:100%;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-size: 4em;
+}
+
+.counter-value {
+    color: orange;
+}
+
+.effect-class {
+    /* animation properties */
+  animation-name: my-animation;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+  /* other properties */
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+@keyframes my-animation {
+    from {
+      background-color: #ff7a59;
+      width: 50%;
+      top: 48%;
+    }
+    to {
+      background-color: #33475b;
+      width: 10%;
+      top: 70%;
+    }
+  }
+
+
+
+.reset-btn {
+    text-align: center;
+}
+
+.reset-btn-click {
+    background-color: orange;
+    border-radius: 2em;
+}
+
+.larger-card {
+    background-color: silver;
+    border-radius: 0.5em;
+    margin-top: 2%;
+    width: 99.5%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.footer {
+    height: 10%;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+.copyright {
+    padding: 0.5%;
+}
+
+span {
+    font-weight: 600;
+}

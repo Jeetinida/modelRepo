@@ -1,0 +1,43 @@
+body {
+    background: black;
+}
+
+.delete-title {
+    color: white;
+    text-align: center;
+}
+
+.page {
+    width: 80%;
+    margin: 0 auto;
+    background-color: brown;
+    height: 90%;
+}
+
+.delete-user {
+    text-align: center;
+    padding: 2%;
+}
+
+.delete {
+    width: 25%;
+    background-color: lightskyblue;
+    text-align: center;
+    border-radius: 0.5em;
+    height: 5%;
+}
+
+.delete-btn {
+    text-align: center;
+    margin: 1%;   
+}
+
+.delete-click {
+    height: 5%;
+    border-radius: 0.5em;
+    background-color: burlywood;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    width: fit-content;
+}
