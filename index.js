@@ -15,6 +15,8 @@ router.get('/register', function(req, res, next) {
 
 // registration page
 router.get('/dashboard', function(req, res, next) {
+  console.log("wuteva");
+  console.log(req.body);
   // __dirname will resolve to project folder.
   res.sendFile(__dirname+'/views/dashboard.html');
 });

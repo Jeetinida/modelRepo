@@ -13,6 +13,18 @@ const { type } = require('os');
 
 var app = express();
 
+// add & configure middleware
+app.use(session({
+  genid: (req) => {
+    console.log('Inside the session middleware')
+    console.log(req.sessionID)
+    return uuid() // use UUIDs for session IDs
+  },
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true
+}))
+
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
